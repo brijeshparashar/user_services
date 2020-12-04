@@ -1,0 +1,25 @@
+logging:
+  file:
+    name: C:/Users/assignment/userDetails-service.log
+  level:
+    root: INFO
+    com.demo.user: DEBUG
+
+server:
+  port: 8080
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password:
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: true
