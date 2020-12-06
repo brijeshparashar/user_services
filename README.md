@@ -36,7 +36,7 @@ Building and Deploying Application
         
 * Application uses these roles to validate the access using the method level role security. 
 * The application will require  user and password to be passed in the request. This is already provided in the postman scripts. 
-* Users with Roles
+* Users with preassigned Roles
     +  1000001- ADMIN User
     +  1000002  READ_UPDATE_USER
     +  1000003  READ_UPDATE USER
