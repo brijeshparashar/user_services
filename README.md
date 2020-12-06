@@ -32,10 +32,18 @@ Building and Deploying Application
 * There are three roles defined in the database as given below :
     + ADMIN - This user role can perform any operation.
     + READ_ONLY - This user role can perform only GET operation. 
-    + READ_UPDATE_USER - This user role can perform GET as well as UPDATE operation. 
+    + READ_UPDATE_USER - This user role can perform GET as well as UPDATE operation.
+        
 * Application uses these roles to validate the access using the method level role security. 
 * The application will require  user and password to be passed in the request. This is already provided in the postman scripts. 
-
+* Users with Roles
+    +  1000001- ADMIN User
+    +  1000002  READ_UPDATE_USER
+    +  1000003  READ_UPDATE USER
+    +  1000004  READ_ONLY USER
+    +  1000005  ADMIN USER
+    +  1000006  NO ROLE ASSIGNED
+    +  1000007  NO ROLE ASSIGNED
 
 ## Testing the application -
 * Get User 
