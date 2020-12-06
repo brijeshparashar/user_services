@@ -9,7 +9,7 @@ It is implemented with following features:
 * It supports a circuit breaker implementation (using Hystrix) in case there is any error while communicating with Database. 
 * It has Unit Testing, Integration Testing and Pact testing to cover all the test scenarios.  
 * Method level role security is implemented in the application using @PreAuthorize annotation so that specific endpoints can be accessed by users having specific roles. 
- 
+* Update Api validates the UserId to be a numeric value between range 1000000 & 9999999. 
 
 
 ## Software & Libraries
