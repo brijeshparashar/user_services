@@ -30,9 +30,9 @@ Building and Deploying Application
 * The application on startup will create the DB tables and populate the tables with predefiend scripts using  /resources/schema.sql and /resources/data.sql.   
 * Once the application is up it can be tested using the postman collection scripts.
 * There are three roles defined in the database as given below :
-** ADMIN - This user role can perform any operation.
-** READ_ONLY - This user role can perform only GET operation. 
-** READ_UPDATE_USER - This user role can perform GET as well as UPDATE operation. 
+    + ADMIN - This user role can perform any operation.
+    + READ_ONLY - This user role can perform only GET operation. 
+    + READ_UPDATE_USER - This user role can perform GET as well as UPDATE operation. 
 * Application uses these roles to validate the access using the method level role security. 
 * The application will require  user and password to be passed in the request. This is already provided in the postman scripts. 
 
@@ -59,7 +59,7 @@ Building and Deploying Application
          }`
  
 * Update User 
-    * Endpoint - http://localhost:8080/users/1001
+    * Endpoint - http://localhost:8080/users
     * Header - Basic Auth with username - 1000001, password- test123
     * Method - PUT
     * Request Body -  
@@ -99,4 +99,5 @@ Building and Deploying Application
           }`
 
 ## Postman Link for testing.
-
+https://www.getpostman.com/collections/07699e6f0854e08909b7
+(If any problems are faced in using this link then import the collection using the JSON attached with the email.) 
