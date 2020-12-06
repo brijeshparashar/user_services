@@ -8,13 +8,13 @@ INSERT INTO  UserAddress(addressId,street,city,state,postCode) VALUES (1006,'66 
 INSERT INTO  UserAddress(addressId,street,city,state,postCode) VALUES (1007,'77 Floral Street','Melbourne','VIC','2000');
 
 /*User Detail table insert scripts*/
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000001,'Mr','Alex','Smith','male','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1001);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000002,'Mr','David','Jackson','male','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1002);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000003,'Mr','Mark','Palmer','male','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1003);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000004,'Ms','Ann','Dodson','female','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1004);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000005,'Mr','Mike','Woolmer','male','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1005);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000006,'Mr','John','Dixon','male','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1006);
-INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000007,'Ms','Rita','Lemaire','female','$2a$04$v/JSaqF22WN0N/IJAw1CTeUqjDpD6lKmdljD0E3owDN0CC6FVbW8i',1007);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000001,'Mr','Alex','Smith','male','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1001);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000002,'Mr','David','Jackson','male','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1002);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000003,'Mr','Mark','Palmer','male','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1003);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000004,'Ms','Ann','Dodson','female','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1004);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000005,'Mr','Mike','Woolmer','male','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1005);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000006,'Mr','John','Dixon','male','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1006);
+INSERT INTO  UserDetail(userId,title,firstName,lastName,gender,bCryptEncodedPassword,addressId) VALUES (1000007,'Ms','Rita','Lemaire','female','$2y$12$1nhG4Jk6QcWTdpIL8ht8A.LcXqu1KD.hqEB.SUu.SuYTRVF0VbgQm',1007);
 /*User Role table insert scripts*/
 INSERT INTO UserRole (roleId,roleName) VALUES (1001,'READ_ONLY_USER');
 INSERT INTO UserRole (roleId,roleName) VALUES (1002,'READ_UPDATE_USER');

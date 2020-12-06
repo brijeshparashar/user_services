@@ -111,32 +111,32 @@ class UserControllerIntegrationTest {
 
     private HttpHeaders getValidUserAuthorizationHeader() {
         HttpHeaders headers = new HttpHeaders();
-        headers.setBasicAuth("1000001", "test");
+        headers.setBasicAuth("1000001", "test123");
         return headers;
     }
 
     private HttpHeaders getAdminUserAuthorizationHeader() {
         HttpHeaders headers = new HttpHeaders();
-        headers.setBasicAuth("1000005", "test");
+        headers.setBasicAuth("1000005", "test123");
         return headers;
     }
 
     private HttpHeaders getReadUpdateUserAuthorizationHeader() {
         HttpHeaders headers = new HttpHeaders();
-        headers.setBasicAuth("1000003", "test");
+        headers.setBasicAuth("1000003", "test123");
         return headers;
     }
 
     private HttpHeaders getReadOnlyUserAuthorizationHeader() {
         HttpHeaders headers = new HttpHeaders();
-        headers.setBasicAuth("1000004", "test");
+        headers.setBasicAuth("1000004", "test123");
         return headers;
     }
 
     private HttpHeaders getInvalidUserAuthorizationHeader() {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.setBasicAuth("1000008", "test");
+        headers.setBasicAuth("1000008", "test123");
         return headers;
     }
 

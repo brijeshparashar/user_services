@@ -1,6 +1,6 @@
 logging:
   file:
-    name: C:/Users/assignment/userDetails-service.log
+    name: C:/user-service/userDetails-service.log
   level:
     root: INFO
     com.demo.user: DEBUG
